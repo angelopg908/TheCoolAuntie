@@ -2,7 +2,7 @@
 
 Static website built for **The Cool Auntie**, a real small business selling homemade, high-protein healthy desserts in Costa Rica. Portfolio project showcasing UI design, responsive layout, and dependency-free vanilla JavaScript.
 
-🌐 **Live demo:** [thecoolauntieshop.com](https://thecoolauntieshop.com)
+🌐 **Live site:** [thecoolauntieshop.com](https://thecoolauntieshop.com)
 
 ---
 
@@ -80,7 +80,7 @@ npx serve .
 
 ## Author
 
-Built as a portfolio project. Feel free to reach out on www.linkedin.com/in/angelo-peña-gomez-b54070169 or via angelopg908@gmail.com.
+Real website build for a cliente and used as a portfolio project with their consent. Feel free to reach out on www.linkedin.com/in/angelo-peña-gomez-b54070169 or via angelopg908@gmail.com.
 
 ---
 

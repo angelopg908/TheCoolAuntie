@@ -80,8 +80,8 @@ npx serve .
 
 ## Author
 
-Built as a portfolio project. Feel free to reach out on [LinkedIn](#) or via [email](#).
+Built as a portfolio project. Feel free to reach out on www.linkedin.com/in/angelo-peña-gomez-b54070169 or via angelopg908@gmail.com.
 
 ---
 
-*© 2026 The Cool Auntie · Designed and developed with ♡ in Costa Rica*
+*© 2026 The Cool Auntie · Costa Rica*

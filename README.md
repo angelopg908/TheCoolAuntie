@@ -1,14 +1,14 @@
 # 🍫 The Cool Auntie Shop — Portfolio Project
 
-Sitio web estático desarrollado para **The Cool Auntie**, un emprendimiento de repostería saludable y alta en proteína con sede en Costa Rica. Proyecto de portafolio que muestra diseño UI, maquetación responsive y JavaScript vanilla sin dependencias.
+Static website built for **The Cool Auntie**, a real small business selling homemade, high-protein healthy desserts in Costa Rica. Portfolio project showcasing UI design, responsive layout, and dependency-free vanilla JavaScript.
 
 🌐 **Live demo:** [thecoolauntieshop.com](https://thecoolauntieshop.com)
 
 ---
 
-## Sobre el proyecto
+## About the project
 
-Diseño y desarrollo completo de un sitio web de una sola página para un negocio real. El objetivo fue crear una experiencia visual atractiva y funcional que le permitiera a la clienta presentar sus productos, mostrar sus planes de suscripción y recibir pedidos directamente por WhatsApp — sin necesidad de backend ni plataformas de terceros.
+Full design and development of a single-page website for a real client. The goal was to create an attractive, functional experience that lets the owner showcase her products, present subscription plans, and receive orders directly through WhatsApp — with no backend or third-party platforms required.
 
 ---
 
@@ -18,55 +18,55 @@ Diseño y desarrollo completo de un sitio web de una sola página para un negoci
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-- **HTML5** semántico con accesibilidad (`aria-label`, landmarks)
-- **CSS3** con custom properties, Flexbox y Grid — sin frameworks
-- **JavaScript vanilla** — sin librerías ni dependencias
+- **HTML5** — semantic markup with accessibility (`aria-label`, landmarks)
+- **CSS3** — custom properties, Flexbox and Grid, no frameworks
+- **Vanilla JavaScript** — no libraries or dependencies
 - **Google Fonts** — Bowlby One SC, Fraunces, DM Sans
-- **Schema.org** structured data para SEO local
+- **Schema.org** structured data for local SEO
 
 ---
 
-## Features implementados
+## Features
 
-- **Responsive design** — adaptado para móvil, tablet y desktop
-- **Menú hamburger** animado para navegación móvil
-- **Smooth scroll** entre secciones con anclas
-- **Reveal on scroll** — animaciones de entrada con `IntersectionObserver`
-- **Formulario → WhatsApp** — construye y pre-llena un mensaje personalizado al enviar
-- **Selección de plan inteligente** — los botones de plan preseleccionan el dropdown del form y hacen scroll hasta él
-- **Header dinámico** — sombra que aparece al hacer scroll
-- **SEO completo** — Open Graph, Twitter Card, Schema.org `FoodEstablishment`, sitemap y robots.txt
+- **Responsive design** — mobile, tablet and desktop
+- **Animated hamburger menu** for mobile navigation
+- **Smooth scroll** between sections via anchor links
+- **Reveal on scroll** — entrance animations using `IntersectionObserver`
+- **Form → WhatsApp integration** — builds and pre-fills a personalized message on submit
+- **Smart plan selection** — plan buttons pre-select the form dropdown and scroll to it
+- **Dynamic header** — box shadow appears on scroll
+- **Full SEO setup** — Open Graph, Twitter Card, Schema.org `FoodEstablishment`, sitemap and robots.txt
 
 ---
 
-## Estructura del proyecto
+## Project structure
 
 ```
 /
-├── index.html              # Página principal (single-page)
-├── styles.css              # Estilos globales con CSS custom properties
-├── main.js                 # Lógica de interactividad
-├── sitemap.xml             # Sitemap para motores de búsqueda
-├── robots.txt              # Directivas para crawlers
+├── index.html              # Main page (single-page)
+├── styles.css              # Global styles with CSS custom properties
+├── main.js                 # Interactivity logic
+├── sitemap.xml             # Search engine sitemap
+├── robots.txt              # Crawler directives
 ├── the-cool-auntie-logo.png
-└── postres.png             # Hero image y Open Graph image
+└── postres.png             # Hero image and Open Graph image
 ```
 
 ---
 
-## Desafíos y decisiones técnicas
+## Technical decisions
 
-**Sin frameworks** — Se decidió usar HTML/CSS/JS puro para mantener el sitio liviano, sin tiempos de build y con máximo control sobre el output final.
+**No frameworks** — Chose plain HTML/CSS/JS to keep the site lightweight, skip build steps, and maintain full control over the output.
 
-**Integración WhatsApp sin backend** — En lugar de un servidor para manejar formularios, el submit construye una URL `wa.me` con los datos del usuario codificados, redirigiendo directamente a una conversación pre-llenada.
+**WhatsApp integration without a backend** — Instead of a server to handle form submissions, the form encodes user data into a `wa.me` URL, redirecting directly to a pre-filled WhatsApp conversation.
 
-**Animaciones con `IntersectionObserver`** — Se usó la API nativa del navegador para las animaciones de scroll en lugar de librerías como AOS, manteniendo el sitio sin dependencias externas.
+**`IntersectionObserver` for scroll animations** — Used the native browser API instead of libraries like AOS, keeping the project dependency-free.
 
 ---
 
-## Correr localmente
+## Running locally
 
-No requiere instalación. Clonar el repo y abrir `index.html` en el navegador, o levantar un servidor local:
+No installation needed. Clone the repo and open `index.html` in your browser, or spin up a local server:
 
 ```bash
 # Python
@@ -78,10 +78,10 @@ npx serve .
 
 ---
 
-## Autor
+## Author
 
-Desarrollado como proyecto de portafolio. Si tenés preguntas o querés trabajar juntos, encontrame en [LinkedIn](#) o escribime por [correo](#).
+Built as a portfolio project. Feel free to reach out on [LinkedIn](#) or via [email](#).
 
 ---
 
-*© 2026 The Cool Auntie · Diseñado y desarrollado con ♡ en Costa Rica*
+*© 2026 The Cool Auntie · Designed and developed with ♡ in Costa Rica*
